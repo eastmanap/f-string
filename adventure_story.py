@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Apollos
+# Sep 11
 # f-String Adventure Story
 
 '''
@@ -21,3 +21,4 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+print ('I had no partner')
