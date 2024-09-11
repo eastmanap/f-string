@@ -1,5 +1,5 @@
-# Student name
-# Current date
+# Apollos Eastman
+# Sep 11 2024
 # f-String Greeting Card 
 
 '''
@@ -11,11 +11,19 @@ Directions:
 
      - the first name of the person the greeting card is for
      - the occasion (e.g., birthday, graduation, etc.)
-     - the custom message 
-
+     - the custom message
 3. Assign each piece of information collected to a variable with a short, specific name.
-
+ 
 4. Use the `print( )` function  and an f-string to display your personalized greeting card on the screen.
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+
+print ('Name:')
+first_name = input()
+print ('occasion:')
+occasion = input()
+print('message:')
+message = input()
+
+print (f'{first_name} happy {occasion} {message}')
