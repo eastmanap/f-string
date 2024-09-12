@@ -21,4 +21,13 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
-print ('I had no partner')
+print ('What is your heros name?')
+first_name = input()
+print ('Where does this story take place?')
+story_setting = input()
+print ('What will your hero find on this adventure?')
+object = input()
+
+story = (f'There once was a hero, and his name was {first_name}, he was treading along {story_setting} when he suddenly found a {object}, how peculiar!')
+
+print (story)
